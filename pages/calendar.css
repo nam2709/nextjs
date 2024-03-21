@@ -1,0 +1,53 @@
+.match-summary {
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    background-color: #080021;
+    padding: 20px;
+    color: white;
+}
+
+.match-info {
+    display: flex;
+    align-items: center;
+    margin-right: 60px; /* Add margin to separate team info */
+    font-size: 1.6em;
+}
+
+.team-info {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    margin-bottom: 10px;
+}
+
+.team-logo-img {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.team-name {
+    font-size: 1.6em;
+    font-family: Arial, sans-serif;
+    padding-left: 10px;
+}
+
+.team-score {
+    margin-left: auto;
+    padding-right: 20px;
+    font-size: 1.6em;
+    font-family: Arial, sans-serif;
+}
+
+.match-recap {
+    border-left: 2px solid white;
+    padding-left: 20px;
+    margin-left: auto; /* Push to the right */
+}
+
+.team-info-container {
+    width: 68%;
+}
+
+

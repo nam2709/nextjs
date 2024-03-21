@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.videos {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #000000, #080021);
+    position: relative;
+}
+
+video {
+    width: 93vw;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 80px; /* Add rounded corners */
+    position: absolute; /* Add position absolute */
+    top: 1%; /* Position at the top */
+    right: 0;
+}
+
+.content {
+    position: absolute;
+    border-radius: 80px;
+    width: 35%;
+    height: 45%;
+    bottom: 2%;
+    right: 2%; /* Align content to the right */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items to the end (right) */
+    justify-content: center; /* Justify content to the end (bottom) */ 
+    background-color: rgba(0, 0, 0, 0.71);
+}
+
+h1 {
+    color: #ffffff; /* Text color */
+    font-size: 9rem; /* Font size */
+    font-weight: bold; /* Font weight */
+    padding-left: 20px; /* Bottom margin */
+    /* Add more styling properties as needed */
+}
+
+.transparent {
+    opacity: 0.3; /* Adjust the opacity level as needed */
+    transition: opacity 0.5s ease; /* Add a smooth transition effect */
+}
+
+@media screen and (max-width: 2156px) {
+    img[src='/r.png'] {
+        width: 100px; /* Set the width to 200px when the screen width is less than 2156px */
+    }
+}
+
