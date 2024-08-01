@@ -1,4 +1,4 @@
-"use clients"
+"use client"
 import React, { useEffect } from 'react';
 
 const FacebookMsg = () => {
