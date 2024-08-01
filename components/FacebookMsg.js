@@ -15,7 +15,7 @@ const FacebookMsg = () => {
         window.fbAsyncInit = function() {
             FB.init({
                 xfbml: true,
-                version: 'API-VERSION'  // Replace API-VERSION with the specific version needed
+                version: 'v20.0'  // Replace API-VERSION with the specific version needed
             });
         };
 
